@@ -1,9 +1,9 @@
 
-#Docker
+# Docker
 
 Things I want to practice are...
 
-###Basics
+### Basics
 What is docker, how it's different from Hypervisor
 Difference between container and image    
 Difference between docker daemon and docker CLI
@@ -16,12 +16,12 @@ Executing a command in running docker container
 Starting a docker container with different command specified in entrypoint
 Starting a stopped container
 
-###Networking
+### Networking
 How to create network in docker
 Connect two different container with custom network without docker-compose
 Waiting for another docker container using dockerize utility
 
-###Dealing with Docker Image
+### Dealing with Docker Image
 How to build custom images
 When to use distroless image
 Instruction types (build / runtime) 
@@ -32,12 +32,12 @@ How to pull / run images from artifactory locally
 Difference between CMD / ENTRYPOINT and when to use which one
 Difference between PUBLISH / EXPOSE
 
-###Debugging Docker Images
+### Debugging Docker Images
 How to look into intermediate docker images
 Issues to deal with alpine images (SSL Certificates)
 Aware of glibc dependencies for go lang    
 
-###Volume
+### Volume
 What is volume
 How to mount volumes
 How to copy file into/from container
